@@ -1,0 +1,91 @@
+/* src/App.scss */
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;  // Ensures background stays behind content
+  }
+  
+  .background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .background-image {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .content {
+    margin-top: 60px; // To prevent content from hiding under the navbar
+    text-align: center;
+  }
+  
+  .navbar {
+    z-index: 10;  // Ensure navbar is on top
+  }
+  
+  .navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .home-style {
+      background-color: transparent !important;
+      box-shadow: none;
+  }
+
+  .aoe-studios-logo {
+    background: url('../src/img/aoe-logo.png') no-repeat top;
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-top: 12px;
+  }
+  
+
+  /* App.scss */
+
+/* Default background for the app */
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;  // Ensure the background is behind the content
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Dynamic background for different pages */
+.about-bg {
+  background-color: #f0f8ff;  // Example color for the About page
+  background-size: cover;
+}
+
+.kana-cold-bg {
+  background-color: #ffcccb;  // Example color for Kana Cold page
+  background-size: cover;
+}
+
+.immanent-world-bg {
+  background-color: #dcdcdc;  // Example color for The Immanent World page
+  background-size: cover;
+}

@@ -1,0 +1,34 @@
+body {
+  background: #fff !important;
+}
+
+.content {
+  margin-top: 0;
+}
+
+.privacy-container {
+  padding: 12em 2em 6em 12em;
+  text-align: left;
+}
+
+.privacy-container h1, .privacy-container h2, .privacy-container h3 {
+  color: #313131;
+}
+
+.privacy-container h2 {
+  font-size: 2.5em;
+}
+
+.privacy-container h3 {
+  font-size: 2em;
+}
+
+.privacy-container section {
+  display: block;
+}
+
+.privacy-container .copyright {
+  margin-top: 2em;
+  font-size: 0.8em;
+  font-weight: 700;
+}

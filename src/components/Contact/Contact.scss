@@ -1,0 +1,102 @@
+.contact-container {
+    scroll-snap-type: y mandatory;  // Enable scroll snapping on the Y-axis
+    overflow-y: scroll;  // Make sure the page scrolls vertically
+    height: 100vh;  // Full height of the viewport
+    scroll-behavior: smooth;
+}
+  
+.contact-section {
+    display: flex;
+    height: 100vh;  // Each section takes up the full height of the viewport
+    scroll-snap-align: start;  // Ensure each section snaps into place when scrolling
+    transition: transform 0.3s ease-in-out;
+
+    & .left-half {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+        background: #ffffff;
+        
+        
+        .content {
+            max-width: 600px;  // Limit the width of the content for better readability
+            text-align: left;
+            padding: 1.55em;
+        }
+    }
+
+    & .right-half {
+        flex: 1;
+        position: relative;
+        overflow: hidden;  // Ensures the image doesn't spill out
+        background: #000;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        .company-contacts {
+            margin-top: 25rem;
+            font-size: 1.5em;
+            a {
+                color: #d81305;
+                text-decoration: none;
+            }
+        }
+
+        dl {
+            margin-top: 5rem;
+            dt {
+                color: #dadada;
+                font-weight: 3em;
+            }
+        }
+    }
+}
+  
+/* Optional: Add some styling to the text */
+h1, h2 {
+    font-size: 4rem;
+    line-height: 4.05rem;
+    color: #333;
+    margin-bottom: 0.35em;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+    width: 30rem;
+    
+    label {
+        font-weight: bold;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #3010b5;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            background-color: #005bb3;
+            transform: translate(0, 0.5em);
+        }
+    }
+}

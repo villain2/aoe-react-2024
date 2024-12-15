@@ -1,0 +1,13 @@
+.card {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  min-height: 525px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,21 @@
+.home_page_tag {
+    position: absolute;
+    left: 20px;              // 20px from the left
+    bottom: 30px;            // 30px from the bottom
+    z-index: 1001;
+    padding: 1em 0 1em 2em;
+  
+    // Add text shadow
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  // Adjust shadow for better visibility
+
+    p {    
+        color: white;
+        font-size: 2.25em;
+    }
+}
+
+.highlight_red {
+    color: #d91e05;
+    font-style: italic;
+}
+

@@ -1,0 +1,30 @@
+body {
+    background: #fff !important;
+}
+
+.content {
+    margin-top: 0;
+}
+
+.termsofuse-container {
+    padding: 12em 2em 6em 12em;
+    text-align: left;
+
+    h1, h2, h3 {
+        color: #313131;
+    }
+
+    h2 { font-size: 2.5em;}
+
+    h3 { font-size: 2em;}
+
+    section {
+        display: block;
+    }
+
+    .copyright {
+        margin-top: 2em;
+        font-size: 0.8em;
+        font-weight: 700;
+    }
+}
