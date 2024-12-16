@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './About.scss'
 
 export default function About() {
@@ -33,7 +32,7 @@ export default function About() {
           </div>
         </div>
         <div className="right-half">
-          <img src="./img/page_images/about-page-image-1.webp" alt="Kana Cold Image" />
+          <img src="./img/page_images/about-page-image-1.webp" alt="Kana Cold" />
         </div>
       </section>
 

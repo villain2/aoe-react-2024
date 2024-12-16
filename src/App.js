@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import { db } from './firebase';
 import './App.scss'; // Import the Sass file for custom styles
 import 'bootstrap/dist/css/bootstrap.min.css';
 
