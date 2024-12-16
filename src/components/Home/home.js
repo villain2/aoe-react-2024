@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import './home.scss'; // Import the Sass file for custom styles
 
 export default function home({
@@ -6,6 +7,14 @@ export default function home({
 }) {
   return (
     <div className="home-container">
+
+    <Helmet>
+      <title>AOE Studios - Home of Wonderfully Weird Fiction</title>
+      <meta name="description" content="Welcome to AOE Studios, the home of Wonderfully Weird fiction from authors KC Hunter and Clive Reznor." />
+      <meta name="keywords" content="kana cold, the kana cold series, kc hunter, author kc hunter, kc hunter baltimore, clive reznor, the immanent world, the immanent world 404, horror anthology, wonderfully weird, urban fantasy, paranormal adventure, paranormal fiction, young adult fiction, metaphysical, shinigami, japanese female, asian female hero, asian female heroine, ghosts, monsters, anthology, like black mirror, like twilight zone" />
+      <meta name="author" content="AOE Studios" />
+      <meta name="canonical" content="https://www.aoestudios.com/" />
+    </Helmet>
 
       {/* Background */}
       <div className="background">

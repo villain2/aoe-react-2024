@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { db, addDoc, collection } from './../../firebase';
 import './Contact.scss';
@@ -41,6 +42,16 @@ export default function Contact() {
 
   return (
     <div className="contact-container">
+      
+
+      <Helmet>
+        <title>Contact AOE Studios</title>
+        <meta name="description" content="Send us an email to contact AOE Studios, KC Hunter, or Clive Reznor." />
+        <meta name="keywords" content="kana cold, the kana cold series, kc hunter, author kc hunter, kc hunter baltimore, clive reznor, the immanent world, the immanent world 404, horror anthology, wonderfully weird, urban fantasy, paranormal adventure, paranormal fiction, young adult fiction, metaphysical, shinigami, japanese female, asian female hero, asian female heroine, ghosts, monsters, anthology, like black mirror, like twilight zone" />
+        <meta name="author" content="AOE Studios" />
+        <meta name="canonical" content="https://www.aoestudios.com/contact" />
+      </Helmet>
+
       <section className="contact-section">
         <div className="left-half">
           <div className="content">
