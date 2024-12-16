@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react'
 import { Helmet } from 'react-helmet';
 import './TheImmanentWorld.scss'
-import { ButtonGroup } from 'react-bootstrap'
 
 
 export default function TheImmanentWorld() {

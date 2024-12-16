@@ -2,15 +2,12 @@
 import React from 'react';
 import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import KanaColdNav from './Navigation/KanaColdNav';
-import ImmanentWorldNav from './Navigation/ImmanentWorldNav';
 
 function Layout({
   children,  // This will render the page content passed to Layout
   showOffcanvas,
   handleShowOffcanvas,
   handleCloseOffcanvas,
-  selectedMenu,
   getOffcanvasTitle,
   getOffcanvasContent
 }) {
