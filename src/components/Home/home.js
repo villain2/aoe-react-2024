@@ -10,7 +10,7 @@ export default function home({
       {/* Background */}
       <div className="background">
         <video className="background-video" autoPlay loop muted>
-          <source src="/video/home-page-video-bg.mp4" type="video/mp4" />
+          <source src="https://aoevideos.s3.us-east-1.amazonaws.com/home-page-video-bg.mp4" type="video/mp4" />
         </video>
       </div>
 
