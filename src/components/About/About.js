@@ -1,18 +1,9 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import './About.scss'
 
 export default function About() {
   return (
     <div className="about-container">
-
-    <Helmet>
-      <title>About AOE Studios Urban Fantasy, Horror, Paranormal Fiction</title>
-      <meta name="description" content="We celebrate the Wonderfully Weird. AOE Studios presents various stories that take new and interesting twists on existing fiction to make something new." />
-      <meta name="keywords" content="kana cold, the kana cold series, kc hunter, author kc hunter, kc hunter baltimore, clive reznor, the immanent world, the immanent world 404, horror anthology, wonderfully weird, urban fantasy, paranormal adventure, paranormal fiction, young adult fiction, metaphysical, shinigami, japanese female, asian female hero, asian female heroine, ghosts, monsters, anthology, like black mirror, like twilight zone" />
-      <meta name="author" content="AOE Studios" />
-      <meta name="canonical" content="https://www.aoestudios.com/" />
-    </Helmet>
       
       {/* Top Section - Explaining the Wonderfully Weird */}
       <section className="about-section full-screen">
@@ -41,7 +32,7 @@ export default function About() {
           </div>
         </div>
         <div className="right-half">
-          <img src="./img/page_images/about-page-image-1.webp" alt="Kana Cold" />
+          <img src="./img/page_images/about-page-image-1.webp" alt="Kana Cold Image" />
         </div>
       </section>
 

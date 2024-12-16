@@ -1,20 +1,10 @@
 import React from 'react'
-import { Helmet } from 'react-helmet';
 import './termsOfUse.scss'
 
 export default function termsOfUse() {
     const currentYear = new Date().getFullYear();
   return (
     <div className='content'>
-
-        <Helmet>
-            <title>AOE Studios Terms of Use</title>
-            <meta name="description" content="Terms of Use for AOE Studios website." />
-            <meta name="keywords" content="aoe studios, terms of use, aoe studios website, kc hunter, clive reznor, kana cold, the immanent world" />
-            <meta name="author" content="AOE Studios" />
-            <meta name="canonical" content="https://www.aoestudios.com/termsofuse" />
-        </Helmet>
-
         <div className='termsofuse-container'>
             <h1>Terms of Use for AOE Studios</h1>
             <p>Effective Date: 11/30/2024</p>

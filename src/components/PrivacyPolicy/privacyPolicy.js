@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet';
 import './privacyPolicy.scss'
 
 export default function privacyPolicy() {
@@ -7,16 +6,6 @@ export default function privacyPolicy() {
 
   return (
     <div className='content'>
-        
-
-      <Helmet>
-        <title>AOE Studios Privacy Policy</title>
-        <meta name="description" content="Privacy policy for AOE Studios website." />
-        <meta name="keywords" content="aoe studios, privacy policy, urban fantasy, kana cold, paranormal fiction, paranormal adventure, horror, clive reznor, kc hunter" />
-        <meta name="author" content="AOE Studios" />
-        <meta name="canonical" content="https://www.aoestudios.com/privacypolicy" />
-      </Helmet>
-
         <div className='privacy-container'>
             <h1>Privacy Policy for AOE Studios</h1>
             <p>Effective Date: 11/30/2024</p>

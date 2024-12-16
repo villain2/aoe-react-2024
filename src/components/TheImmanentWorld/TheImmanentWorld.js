@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
-import { Helmet } from 'react-helmet';
 import './TheImmanentWorld.scss'
+import { ButtonGroup } from 'react-bootstrap'
 
 
 export default function TheImmanentWorld() {
@@ -19,15 +19,6 @@ export default function TheImmanentWorld() {
   
   return (
     <div className="tiw-container">
-
-      <Helmet>
-        <title>Clive Reznor the author of The Immanent World Series</title>
-        <meta name="description" content="Clive Reznor's collection of horror short stories in the ongoing anthology series The Immanent World." />
-        <meta name="keywords" content="clive reznor, author clive reznor, the immanent world, 404, cluichi, scary stories, horror, horror anthologies, horror short stories, twisted stories, horror collection" />
-        <meta name="author" content="AOE Studios" />
-        <meta name="canonical" content="https://www.aoestudios.com/theimmanentworld" />
-      </Helmet>
-
       {/* Cluichi */}
     <section className="tiw-section" id="cluichi">
       <div className="left-half">
