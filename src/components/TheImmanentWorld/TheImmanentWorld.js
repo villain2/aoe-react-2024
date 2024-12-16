@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
+import { Helmet } from 'react-helmet';
 import './TheImmanentWorld.scss'
-import { ButtonGroup } from 'react-bootstrap'
 
 
 export default function TheImmanentWorld() {
@@ -19,6 +19,11 @@ export default function TheImmanentWorld() {
   
   return (
     <div className="tiw-container">
+      <Helmet>
+        <title>Clive Barker - Author of The Immanent World horror short story series.</title>
+        <meta name="description" content="Learn more about author Clive Reznor, writer of the horror anthology series The Immanent World" />
+        <meta name="keywords" content="clive reznor, the immanent world, author clive reznor, scary books, horror short stories, horror anthology, ghosts, paranormal,monsters, like black mirror, like twilight zone" />
+      </Helmet>
       {/* Cluichi */}
     <section className="tiw-section" id="cluichi">
       <div className="left-half">

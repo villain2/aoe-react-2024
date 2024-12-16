@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import { db, addDoc, collection } from './../../firebase';
 import './Contact.scss';
 
@@ -41,6 +42,11 @@ export default function Contact() {
 
   return (
     <div className="contact-container">
+      <Helmet>
+        <title>AOE Studios - Contact Us</title>
+        <meta name="description" content="Contact us at AOE Studios or send an email directly." />
+        <meta name="keywords" content="aoe studios, contact, contact writers, contact authors" />
+      </Helmet>
       <section className="contact-section">
         <div className="left-half">
           <div className="content">

@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import { Helmet } from 'react-helmet';
 import './KanaCold.scss'
 import { ButtonGroup } from 'react-bootstrap'
 
@@ -18,6 +19,12 @@ export default function KanaCold() {
 
   return (
     <div className="kanacold-container">
+      <Helmet>
+        <title>KC Hunter author of the Kana Cold series</title>
+        <meta name="description" content="KC Hunter hails from Baltimore, Maryland and is the creator and author of the Kana Cold paranormal thriller series." />
+        <meta name="keywords" content="AOE Studios, KC Hunter, kana cold, kana cold series, the reaping of the black grimoires, seraphim asylum, wrath of the burning gods, island of hell, paranormal thriller, paranormal thriller series, young adult series, asian female hero, japanese female hero, japanese american, metaphysical fiction, supernatural thriller, paranormal adventure" />
+      </Helmet>
+
       {/* Case of the Shinigami */}
     <section className="kanacold-section" id="case-of-the-shinigami">
       <div className="left-half">

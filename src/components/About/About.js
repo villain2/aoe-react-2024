@@ -1,9 +1,15 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import './About.scss'
 
 export default function About() {
   return (
     <div className="about-container">
+      <Helmet>
+        <title>AOE Studios - Home</title>
+        <meta name="description" content="Learn more about urban fantasy author KC Hunter and horror fiction writer Clive Reznor." />
+        <meta name="keywords" content="AOE Studios, KC Hunter, Clive Reznor, Kana Cold, The Immanent World, horror fiction" />
+      </Helmet>
       
       {/* Top Section - Explaining the Wonderfully Weird */}
       <section className="about-section full-screen">
@@ -32,7 +38,7 @@ export default function About() {
           </div>
         </div>
         <div className="right-half">
-          <img src="./img/page_images/about-page-image-1.webp" alt="Kana Cold Image" />
+          <img src="./img/page_images/about-page-image-1.webp" alt="Kana Cold" />
         </div>
       </section>
 
